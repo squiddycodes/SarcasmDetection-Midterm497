@@ -10,4 +10,6 @@ You will need to download GloVe's "glove.6B.100d.txt" file before running the co
 
 To run the code, you will need to run "main.py"
 
-We used optuna to find our best parameters, but if you want to train the model yourself and find your own parameters, edit the model.py file, changing the cnn filters in the objective function
+We used optuna to find our best parameters, but if you want to train the model yourself and find your own parameters, edit the model.py file, changing the cnn filters in the objective function.
+
+final_model.h5 is our highest model evaluation achieved, around 92% accuracy. To use this model, uncomment the associated code in main.py. Understand that this model may be overfitted.
