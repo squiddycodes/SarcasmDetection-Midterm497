@@ -11,4 +11,6 @@ gensim
 
 You can run "pip install -r requirements.txt" to install them all in one command.
 
-To run the code, you will need to ____________________
+Make sure you have all files in the same folder, to be able to run the model.
+
+To run the code, you will need to run "main.py"
